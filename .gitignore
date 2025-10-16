@@ -1,0 +1,29 @@
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Project data
+Data/raw/
+Data/outputs/
+*.parquet
+*.duckdb
+*.db
+*.sqlite
+*.zip
+*.gz
+*.tar
+*.tar.gz
+*.7z
+*.tmp
+*.log
+
+# Figures if regenerated
+Data/outputs/figures/
+
+# VSCode / Jupyter
+.vscode/
+*.ipynb_convert.*

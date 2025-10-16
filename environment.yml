@@ -1,0 +1,13 @@
+name: maude
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - duckdb
+  - statsmodels
+  - scipy
+  - jupyterlab
+  - ipykernel
